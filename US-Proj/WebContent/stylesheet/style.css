@@ -1,0 +1,434 @@
+@CHARSET "ISO-8859-1";
+
+.container
+{
+	margin:0px auto 0px auto;
+	min-width:858px;/*835*//*original 1257*//**/
+	/*min-width:1313px;*/
+	
+}
+
+.header
+{
+	height:245px;/*240*/
+	background-color:#6633CC;
+}
+
+.navbar
+{
+	height:35px;
+	background-color:#333;
+	/*border-bottom-style:ridge;
+	border-bottom-color:#FFF;*/
+	border-bottom:2px solid #FFF;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-size:14px;
+}
+
+.left-navbar
+{
+	float:left;
+	padding-top:8px;
+	color:#FFF;
+}
+
+ul
+{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+li
+{
+	display:inline;
+	/*float:left;*/
+}
+
+.navbar-style, .search-navbar-style
+{
+	/*float:left;*/	
+	/*border:1px solid #F60;
+	border-radius:15px 15px 15px 15px;*/
+	margin-left:16px;
+	padding:2px 15px 2px 15px;
+}
+
+
+.navbar-style:hover, .search-navbar-style:hover
+{
+	background-color:#F90;
+	cursor:pointer;
+}
+
+.right-navbar
+{
+	padding-top:8px;
+	color:#FFF;
+	float:right;
+}
+
+.searchbar
+{
+	padding-top:4px;
+	float:right;
+	margin-right:16px;
+}
+
+.searchBorserStyle
+{
+	position:relative;
+	border-radius:10px 10px 10px 10px;
+	border-color:#333;
+	height:20px;
+	padding-bottom:0px;
+	padding-top:0px;
+	padding-left:10px;
+	padding-right:20px;
+	background-image:url('../img/search.svg');
+	background-repeat:no-repeat;
+	background-position-x:160px;
+	background-position-y:4px;
+}
+
+.search-navbar-style
+{
+	padding:0px 15px 0px 15px;
+}
+
+a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+.banner
+{
+	height:158px;/*170*/
+	background-color:#339933;
+	/*padding-left:30px;
+	padding-right:30px;*/
+}
+
+.aliahlogo
+{
+	/*border:1px solid black;*/
+	width:145px;
+	height:140px;
+	margin-left:30px;
+	padding-top:10px;/*10*/
+	float:left;
+}
+
+.aliah-university
+{
+	/*border:1px solid black;*/
+	margin-left:176px;
+	margin-right:231px;
+	padding-top:16px;/*20*/
+	text-align:center;
+	font-size:32px;/*35*/
+	font-family:"Trebuchet MS", Arial, sans-serif;/*Old English Text MT;/*Georgia, "Times New Roman", Times, serif;"Old English Text MT","Lucida Handwriting"*/
+	/*font-weight:bold;*/
+	color:#FFF;
+	/*overflow:visible;*/
+}
+
+.aliahheading
+{
+	/*border:1px solid black;*/
+	width:200px;
+	margin-right:30px;
+	padding-top:30px;/*137*/
+	float:right;
+}
+
+.subhead
+{
+	/*border:1px solid black;*/
+	font-weight:normal;
+	font-family:"Times New Roman", Times, serif;
+	color:#FFF;
+	font-size:small;
+	/*text-align:center;*/
+}
+
+.menu
+{
+	font-family:Verdana;
+	/*font-weight:bold;*/
+	background-color:#6633CC;
+	height:45px;/*45*/
+	padding-left:50px;
+	/*padding-right:50px;*/
+	border-top:2px solid #FFF;
+	border-bottom:2px solid #FFF;
+}
+
+
+.slide-show
+{
+	width:100%;
+}
+
+/*@media only screen and (max-width:940px)
+{
+	.menu
+	{
+		font-size:x-small;
+		padding-left:17px;
+	}
+}*/
+
+.content 
+{
+	/*border:1px solid #F00;*/
+	border-top:8px solid #FFF;
+	padding-left:4px;
+	height:auto;
+	font-family:verdana;
+	/*font-family:papyrus;*/
+}
+
+.innerContent
+{
+	padding-left:50px;
+	padding-right:50px;
+	/*font-family:verdana;*/
+	min-height:428px;/*428*/
+}
+
+.event, .announcement, .news
+{
+	/*border:1px solid black;*/
+	width:33.1%;/*33.2%*/
+	float:left;
+}
+
+.announcement
+{	
+	border-left:2px solid #FFF;
+	border-right:2px solid #FFF;
+}
+
+.event-head, .announcement-head, .news-head
+{
+	font-family:Papyrus;
+	font-weight:bold;
+	text-align:center;
+	color:#FFF;
+	height:28px;
+}
+
+.event-head
+{
+	background-color:#399;
+}
+.announcement-head
+{
+	background-color:#6C3;
+}
+.news-head
+{
+	background-color:#F90;
+}
+
+.event-body, .announcement-body, .news-body
+{
+	font-weight:normal;
+	height:375px;
+	/*text-align:center;*/
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:20px;
+	overflow:auto; 
+}
+
+.footer
+{
+	/*border:0px solid #F00;*/
+	height:240px;
+}
+
+.top-footer
+{
+	/*border:1px solid #339933;*/
+	border-bottom:2px groove #339933;
+	background-color:#339933;
+	height:200px;
+}
+
+.top-inner-footer
+{
+	/*border:1px solid #333;*/
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:30px;
+	color:#FFF;
+	font-family:Papyrus;
+	font-weight:bold;
+}
+
+.ul-style
+{
+	list-style-type:none;
+}
+
+.li-style
+{
+	display:list-item;
+}
+
+
+.col1, .col2
+{
+	text-align:left;
+	/*border:1px solid black;*/
+	float:left;
+	width:20%;
+}
+
+.col3
+{
+	text-align:center;
+	width:20%;/*19.5*/
+	/*border:1px solid #FFF;*/
+	float:left;
+}
+
+.col4
+{
+	text-align:right;
+	/*border:1px solid black;*/
+	width:19%;
+	float:left;
+}
+
+.col5
+{
+	text-align:right;
+	/*border:1px solid black;*/
+	width:250px;
+}
+
+.col
+{
+	/*border:1px solid black;*/
+	width:21%;
+	float:right;
+}
+
+.bottom-footer
+{
+	/*border:1px solid #333;*/
+	background-color:#333;
+	height:40px;
+	text-align:center;
+}
+
+.admin-bar
+{
+	height:37px;
+	background-color:#6633CC;
+	color:#FFF;
+	font-family: Verdana;
+  	font-size: 15px;
+}
+
+.adminBorder
+{
+	border-top:2px solid #FFF;
+	border-bottom:2px solid #FFF;
+	height:25px;
+	padding-right:20px;
+	padding-top:7px;
+}
+
+.menu-content
+{
+	/*border:1px solid #333;*/
+	min-width:11%;/*15%*/
+	min-height:auto;
+	float:left;
+	padding-left:10px;
+	font-family: Verdana;
+  	font-size: 15px;
+}
+
+.form-content
+{
+	/*border:1px solid #333;*/
+	width:82%;/*83.3%*//*86.5*/
+	min-height:428px;
+	/*float:left;*/
+	font-family: Verdana;
+  	font-size: 15px;
+  	margin-left:60px;
+  	
+  	
+}
+
+.adminPanel
+{
+	/*border:1px solid black;*/
+	border-bottom: 2px solid #EAEAEA;
+	font-family: Verdana;
+  	font-size: 50px;
+  	padding-left:50px;
+	color:#C00;
+	margin-left:80px;
+}
+
+.loginBox
+{
+	/*border:0px solid black;*/
+	border-style:groove; 
+	border-radius:20px 20px 20px 20px;
+	width:400px;
+	height:200px;
+	margin-left:40%;
+	margin-top:30px;
+	background-color:#EAEAEA;
+	text-align:center;
+	padding-top:50px;
+}
+
+.btn
+{
+	font-family: Verdana;
+  	font-size: 15px;
+  	border-radius:2px 2px 2px 2px;
+	background-color:#CCC;
+}
+
+.line
+{
+	border: 1px solid #EAEAEA;
+	margin-top:40px;
+	margin-left:80px;
+	
+}
+
+.fontStyle, table
+{
+	font-family:verdana;
+}
+
+.linkStyle
+{
+	color:#000;
+	font-family:verdana;
+}
+.linkStyle:hover
+{
+	text-decoration:underline;
+	color:#F00;
+	
+}
+
+
+.footerLinkStyle:hover
+{
+	color:#FFF;
+	text-decoration:underline;
+}
